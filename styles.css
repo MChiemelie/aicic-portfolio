@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background: #076dd3;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* About */
+#about p {
+  max-width: 600px;
+}
+
+#about figure {
+  margin-top: 15px;
+}
+
+#about img {
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Interests */
+#interests ul {
+  list-style: square inside;
+  margin-left: 20px;
+}
+
+/* Projects */
+#projects table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#projects th,
+#projects td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+#projects th {
+  background-color: #f0f0f0;
+}
+
+/* Media */
+#media video,
+#media audio {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Contact Form */
+form {
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+  background: #444;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #222;
+  color: #fff;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
